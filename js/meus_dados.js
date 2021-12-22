@@ -30,6 +30,6 @@ let conhecimentos=[
     "Algoritmos 2 (linguagem de programação javascript)"
 ]
 
-let minha_pessoa = new Eu(32,"mriaalicematos@gmail.com",conhecimentos)
+let minha_pessoa = new Eu(18,"mriaalicematos@gmail.com",conhecimentos)
 minha_pessoa.conhecimentos.push("Github")
 document.writeln(minha_pessoa.meApresentar())
