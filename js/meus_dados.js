@@ -31,4 +31,5 @@ let conhecimentos=[
 ]
 
 let minha_pessoa = new Eu(32,"mriaalicematos@gmail.com",conhecimentos)
+minha_pessoa.conhecimentos.push("Github")
 document.writeln(minha_pessoa.meApresentar())
