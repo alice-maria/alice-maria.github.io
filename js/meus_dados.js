@@ -12,12 +12,12 @@ class Eu{
     meApresentar(){
         return "Ola, sou a Maria, tenho "+this.idade+
         " anos, pode entrar em contato comigo pelo e-mail "+this.email+
-        "no momento aprendi sobre:"+this.aprendizado()
+        "no momento aprendi sobre:<ul>"+this.aprendizado()+"<ul>"
     }
     aprendizado(){
         let texto=""
         for(let contador=0;contador<conhecimentos.length;contador++){
-            texto+="<br>"+this.conhecimentos[contador]
+            texto+="<li>"+this.conhecimentos[contador]+"</li>"
         }
         return texto
     }
